@@ -1,0 +1,9 @@
+---
+- hosts:
+  - app
+  roles:
+  - common
+  - firewall
+  - users
+  - hosts
+  - nginx
